@@ -1,8 +1,21 @@
 
 
+function  sajjad (y) {
+
+	alert("salam " + y);	
+}
+	sajjad("sara");
 
 
+function x(one,two,three){
 
-var x=89
+	document.write (one +" behtar hast az " + two +" va hamintor az " + three + "</br>")
+}
+x ("amir","ali","yadi");
+ 
 
-document.write(x)
+ function addnumbers (a,b){
+ 	var c= a + b;
+ 	return c;
+ }
+ document.write(addnumbers(3,6));

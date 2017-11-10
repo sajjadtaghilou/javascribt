@@ -168,7 +168,23 @@ document.write ("behtarin ghaza "+ghaza [2] + " hast"+"</br>")
 
 document.write (Math.E+"</br>")
 document.write (Math.PI+"</br>")
-
+//jazr
 var n = 81;
 var javab = Math.sqrt (n);
-document.write(javab);
+document.write(javab+"</br>");
+
+/*function doSomthings (){
+	document.write ("shahin")
+}
+setInterval("doSomthings()",1000); */
+
+/*Date object*/
+function printTime( ){
+	var now = new Date( );
+	var hours = now.getHours( );
+	var mins = now.getMinutes( );
+	var seconds = now.getseconds( );
+	document.write(hours + ":" + mins + ":" + seconds + "<br />");
+}
+setInterval ("printTime( )",1000);
+

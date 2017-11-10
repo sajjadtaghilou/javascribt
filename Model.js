@@ -127,4 +127,48 @@ var films = new Array ("taitanic" , "terminator" , "parker" ,"madar");
  document.write (films[3]+"</br>");
  films.pop ();
  document.write (films[3]+"</br>");
+//reverse
+ var ab = new Array ("taitanic" , "terminator" , "parker" ,"madar");
+ ab.reverse();
+ document.write (ab+"</br>");
+ //push
+ ab.push ("zaban","dast");
+ document.write (ab+"</br>");
+ //sort
+ ab.sort ();
+ document.write (ab+"</br>");
 
+//prompt
+/*
+var pie = prompt ("Enter your name","") ;
+document.write ("Hello " + pie+"</br>")
+
+var crap = new Array ();
+for (i=0; i<3;i++){
+	crap [i] = prompt ("add somthing :", "");
+}
+document.write(crap[0]+" "+crap[1]+" "+crap[2]+"</br>");
+*/
+
+
+var mive = new Array ("sib" , "khiar" , "kivi" ,"anar");
+mive.sort();
+
+for ( i = 0 ; i < mive.length; i++) {
+	document.write (mive[i]+"</br>")
+}
+
+
+var ghaza = new Array ();
+ghaza[1] = "angil";
+ghaza[2]= "pizaa";
+ghaza[3] = "ghorme";
+
+document.write ("behtarin ghaza "+ghaza [2] + " hast"+"</br>")
+
+document.write (Math.E+"</br>")
+document.write (Math.PI+"</br>")
+
+var n = 81;
+var javab = Math.sqrt (n);
+document.write(javab);
